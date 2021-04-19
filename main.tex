@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{cite}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{PARCIAL 1}
+            
+        \vspace{0.5cm}
+        \LARGE
+        INFORME
+            
+        \vspace{1.5cm}
+            
+        \textbf{Diego Fernando Urbano Palma\\Michael Stiven Zapata Giraldo\\Brayan Steven Avila Marin}
+            
+        \vfill
+            
+        \vspace{0.8cm}
+            
+        \Large
+        Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
+        Universidad de Antioquia\\
+        Medellín\\
+        Abril de 2021
+            
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+\section{ Analisis del problema }\label{intro}
+Para enfrentar el problema planteado en cual debemos crear una matriz de leds en los cuales debemos encenderlos y apagarlos para representar patrones ingresados por el usuario proponemos conectar los leds de manera multiplexada y hacer uso de transistores a manera de swicht para controlar filas y columnas de leds, esto controlado a su ves por medio de el circuito integrado 74HC595.
+\section{ problemas a solucionar }
+\begin{itemize}
+\item Comprender el funcionamiento de los transistores para el control de filas y columnas de leds.
+\item Conectar la matriz al circuito integrado 74HC595 de tal forma que podamos controlar el encendido de todos los leds.
+\item Entender cómo se manipulan los leds por medio de la programación del Arduino.
+\item Buscar las funciones más óptimas en c++ para hacer las amena la escritura y estructura del codigo
+
+
+
+\end{itemize} 
+\end{document}
